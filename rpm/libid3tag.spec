@@ -37,7 +37,7 @@ exec_prefix=%{_exec_prefix}
 libdir=%{_libdir}
 includedir=%{_includedir}
 
-Name: id3tag
+Name: libid3tag
 Description: ID3 tag manipulation library
 Requires:
 Version: %{version}
