@@ -1,0 +1,3 @@
+[submodule "libid3tag"]
+	path = libid3tag
+	url = https://github.com/sailfishos-mirror/libid3tag.git

@@ -1,0 +1,11 @@
+--- a/CMakeLists.txt	2022-05-03 04:56:29.000000000 +0100
++++ b/CMakeLists.txt	2022-08-31 15:32:14.980519493 +0100
+@@ -40,7 +40,7 @@ endif()
+ 
+ set_target_properties(id3tag PROPERTIES
+   VERSION ${CMAKE_PROJECT_VERSION}
+-  SOVERSION ${CMAKE_PROJECT_VERSION}
++  SOVERSION 0
+ )
+ 
+ include(CheckIncludeFile)
