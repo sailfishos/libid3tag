@@ -1,4 +1,4 @@
-From 243b99b2f02fed9f251228cfdaf4d4ab9ab06561 Mon Sep 17 00:00:00 2001
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Leigh Scott <leigh123linux@gmail.com>
 Date: Wed, 31 Aug 2022 13:35:16 +0100
 Subject: [PATCH] cmake: hook genre.dat and gperf files generation
@@ -14,10 +14,10 @@ Subject: [PATCH] cmake: hook genre.dat and gperf files generation
  delete mode 100644 genre.dat
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 397912f..7829188 100644
+index 083b5f1ff6fea4ec1ca65d03e167a84aec680f27..f461110c3198527d0c8d76c733eed93216dd8b0e 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -8,16 +8,38 @@ include(GNUInstallDirs)
+@@ -14,16 +14,38 @@ include(GNUInstallDirs)
  #
  # Build
  #
@@ -60,7 +60,7 @@ index 397912f..7829188 100644
      render.c
 diff --git a/compat.c b/compat.c
 deleted file mode 100644
-index 48d486a..0000000
+index 48d486ac58ee79a46fe720077ca91e3d2e934f51..0000000000000000000000000000000000000000
 --- a/compat.c
 +++ /dev/null
 @@ -1,502 +0,0 @@
@@ -568,7 +568,7 @@ index 48d486a..0000000
 -}
 diff --git a/frametype.c b/frametype.c
 deleted file mode 100644
-index 02aea5d..0000000
+index 02aea5dc7d6952b8214d4b722e85a5cb8dfb7e7e..0000000000000000000000000000000000000000
 --- a/frametype.c
 +++ /dev/null
 @@ -1,564 +0,0 @@
@@ -1138,7 +1138,7 @@ index 02aea5d..0000000
 -}
 diff --git a/genre.dat b/genre.dat
 deleted file mode 100644
-index 1f02779..0000000
+index 1f027793e1956bfea949f5ed65926caad379e373..0000000000000000000000000000000000000000
 --- a/genre.dat
 +++ /dev/null
 @@ -1,480 +0,0 @@
@@ -1622,6 +1622,3 @@ index 1f02779..0000000
 -  genre_JPOP,
 -  genre_SYNTHPOP
 -};
--- 
-2.37.2
-
